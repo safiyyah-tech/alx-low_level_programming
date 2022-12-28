@@ -2,7 +2,7 @@
 
 /**
  * main - prints the sum of all the multiles of 3, 5 to 1024
- * Return Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
