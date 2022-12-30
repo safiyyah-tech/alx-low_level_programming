@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * print_remaining_days - picks a date and displays how many
@@ -9,7 +10,7 @@
  */
 void print_remaining_days(int mon, int day, int yr)
 {
-	if ((yr % 400 == 0) || (yr % 4 == 0 && yr % 100 != 0))
+	if ((yr % 400 == 0) || (yr % 4 == 0) && (yr % 100 != 0))
 	{
 		if (mon >= 3 && day >= 60)
 		{
