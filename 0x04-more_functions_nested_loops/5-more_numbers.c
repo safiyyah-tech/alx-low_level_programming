@@ -2,6 +2,7 @@
 
 /*
  * more_numbers - prints the numbers 0 to 14 ten times
+ * _putchar: prints the result
  * Return: 10 times the numbers 0 to 14
  */
 void more_numbers(void)
