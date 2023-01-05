@@ -24,8 +24,8 @@ int comparator(char *str, int i1, int i2)
 {
 	if (*(str + i1) == *(str + i2))
 	{
-		if ( i1 == i2 || i1 == i2 + 1)
-			return(1);
+		if (i1 == i2 || i1 == i2 + 1)
+			return (1);
 		return (0 + comparator(str, i1 + 1, i2 - 1));
 	}
 	return (0);
