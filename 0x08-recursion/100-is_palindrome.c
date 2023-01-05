@@ -20,7 +20,7 @@ int _strlen_recursion(char *str)
  * @i2: biggest iterator
  * Return: .
  */
-int comaprator(char *str, int i1, int i2)
+int comparator(char *str, int i1, int i2)
 {
 	if (*(str + i1) == *(str + i2))
 	{
@@ -40,5 +40,5 @@ int is_palindrome(char *str)
 {
 	if (*str == '\0')
 		return (1);
-	return (comaparator(str, 0, _strlen_recursion(str) - 1));
+	return (comparator(str, 0, _strlen_recursion(str) - 1));
 }
