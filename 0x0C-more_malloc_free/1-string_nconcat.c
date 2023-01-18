@@ -3,7 +3,7 @@
 
 
 /**
- * string_nconcat - concatenates two strings 
+ * string_nconcat - concatenates two strings
  * @str1: string one
  * @str2: string two
  * @a: integer
